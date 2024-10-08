@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Website</title>
+  <style>
+    /* Add some basic styling to our page */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    nav {
+      background-color: #3e5d64;
+      color: #3e5d64;
+      padding: 1em;
+      text-align: center;
+      margin-bottom: 5%;
+    }
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: space-between;
+    }
+    nav ul li {
+      margin-right: 50px;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      transition: color 0.2s ease;
+    }
+    nav a:hover {
+      color: #ccc;
+    }
+    .hero {
+      background-image: url('pexels-olenkabohovyk-1772123.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #000000;
+    }
+    .about {
+    
+        background-color: #272842;
+      padding: 15px 30px;
+      border: none;
+      border-radius: 5px;
+      font-size: 1.1em;
+      cursor: pointer;
+    }
+    .services {
+     
+        background-color: #272842;
+      padding: 15px 30px;
+      border: none;
+      border-radius: 5px;
+      font-size: 1.1em;
+      cursor: pointer;
+    }
+    .contact {
+    
+      background-color: #272842;
+      padding: 15px 30px;
+      border: none;
+      border-radius: 5px;
+      font-size: 1.1em;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="#home"class="contact">Home</a></li>
+      <li><a href="#about"class="about">About</a></li>
+      <li><a href="#services"class="services">Services</a></li>
+      <li><a href="#contact" class="contact">Contact</a></li>
+    </ul>
+  </nav>
+  <div class="hero">
+    <h1  style="color:blue;">Welcome to my website!</h1> 
+    <br>
+    <p>This is a hero section</p>
+    <button>Learn More</button>
+  </div>
+  <div class="about">
+    <h2>About Us</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet sollicitudin justo. Donec sed lectus non libero feugiat commodo ac et lorem. Maecenas euismod feugiat lorem, eget ullamcorper lectus mollis eu. </p>
+  </div>
+  <div class="services">
+    <h2>Our Services</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet sollicitudin justo. Donec sed lectus non libero feugiat commodo ac et lorem. Maecenas euismod feugiat lorem, eget ullamcorper lectus mollis eu. </p>
+  </div>
+  <div class="contact">
+    <h2>Contact Us</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet sollicitudin justo. Donec sed lectus non libero feugiat commodo ac et lorem. Maecenas euismod feugiat lorem, eget ullamcorper lectus mollis eu. </p>
+  </div>
+</body>
+</html>
